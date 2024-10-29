@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.promo {
+    background-image: url(./img/Rectangle.png);
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 40px;
+    max-width: 1480px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.menu a {
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #939393;
+    text-decoration: 0;
+
+}
+
+.number {
+    color: #939393;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.n_btn {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 1px solid #494949;
+    cursor: pointer;
+}
+
+.av_box {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.av_text h1 {
+    font-family: Roboto;
+    font-size: 60px;
+    line-height: 64px;
+    text-align: left;
+    color: white;
+    padding-top: 97px;
+    padding-bottom: 54px;
+}
+
+.av_text a {
+    font-family: PT Sans;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: #BEBEBE;
+    text-decoration: none;
+}
+
+.av_text span {
+    color: #F5702C;
+    margin: 15px;
+}
+
+.av_text p {
+    padding-bottom: 35px;
+}
+
+.about {
+    padding: 80px 0 99px;
+    background: #F6F6F6;
+}
+
+.about_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    text-align: center;
+}
+
+.about_item img {
+    float: left;
+    margin-right: 37px;
+    padding-bottom: 99px;
+}
+
+.about_text {
+    font-family: PT Sans;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    width: 649px;
+}
+
+.about_item h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 17.47px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.about_item p {
+    text-align: right;
+    width: 290px;
+    font-family: PT Sans;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: #7B7B7B;
+
+}
+
+.bold {
+    color: #F5702C;
+}
+
+marquee {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0 10px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+.production {
+    padding: 80px 0 100px;
+
+}
+
+.production h3 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+
+
+}
+
+.bg {
+    height: 544px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.product_box {
+    padding-top: 28px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer {
+    margin: 0 auto;
+    background: #202122;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px  120px 30px;
+}
+
+.footer_box p {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: center;
+    color: #747474;
+}
+
+.phone {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    color: #BEBEBE;
+    text-decoration: none;
+}
+
+.social a {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 17.47px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.modal__content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+dialog {
+    border: none;
+}
+
+dialog::backdrop {
+    background-color: rgba(75, 75, 75, 0.485);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #7e57c2;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #6200ea;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #3700b3;
+}
+
+.modal {
+
+    position: fixed; /* Чтобы окно всегда оставалось поверх всего */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_white {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px ;
+    padding: 15px;
+    border: 0;
+    background-color: #F5702C;
+}
